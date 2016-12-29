@@ -1,7 +1,9 @@
 <?php
+namespace stalavitski\YiiS3;
 
 /**
  * Class S3Component
+ * @package stalavitski\YiiS3
  *
  * S3Component is a wrapper for S3.php class by Donovan Schönknecht (@link https://github.com/tpyo/amazon-s3-php-class)
  * This wrapper contains upload and remove file possibilities

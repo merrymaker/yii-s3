@@ -1,19 +1,30 @@
 {
-    "name": "tpyo/amazon-s3-php-class",
-    "description": "A standalone Amazon S3 (REST) client for PHP 5.2.x using CURL that does not require PEAR.",
+    "name": "stalavitski/yii-s3",
+    "description": "This extension provides few functions for working with Amazon S3 storage. Currently possible actions: upload remove, get bucket names list.",
+    "keywords": [
+        "yii",
+        "amazon-s3",
+        "test"
+    ],
+    "homepage": "https://github.com/stalavitski/yii-s3",
     "type": "library",
-    "homepage": "https://github.com/tpyo/amazon-s3-php-class",
-    "license": "BSD-2-Clause",
+    "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Donovan Schönknecht",
-            "email": "don@tpyo.net"
+            "name": "Artsem Stalavitski",
+            "email": "a.stalavitski@gmail.com"
         }
     ],
+    "support": {
+        "source": "https://github.com/stalavitski/yii-s3"
+    },
     "require": {
-        "php": ">=5.2.0"
+        "php": ">=5.3",
+        "tpyo/amazon-s3-php-class": ">=0.5.1"
     },
     "autoload": {
-        "classmap": ["S3.php"]
+        "psr-4": {
+            "stalavitski\\YiiS3\\": ""
+        }
     }
 }
