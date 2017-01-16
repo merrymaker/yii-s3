@@ -14,7 +14,7 @@ namespace stalavitski\YiiS3;
  * @uses CFile
  * @author Artsem Stalavistki (a.stalavitski@gmail.com)
  */
-class S3Component extends CApplicationComponent
+class S3Component extends \CApplicationComponent
 {
     /**
      * @var string AWS Access key
